@@ -4,4 +4,4 @@ bundle exec rake db:drop RAILS_ENV=test
 bundle exec rake db:create RAILS_ENV=test
 bundle exec rake db:test:prepare RAILS_ENV=test
 bundle exec rspec -f RSpec::TapY spec/*.rb > ./rspec.tap
-bundle exec teaspoon -q --format=tap_y > ./teaspoon.tap
+bundle exec teaspoon -q --format=tap > teaspoon.tap
